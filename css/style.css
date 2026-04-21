@@ -1,0 +1,245 @@
+.zagolovok{
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+    background-color: #c5f0fd;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.blockmenu{
+    background-color:#9ce5fc;
+    width: 100%;              
+    box-shadow: 2px 2px;
+}
+.menu {
+    width: fit-content;       
+    margin-bottom: 10px;
+    overflow: hidden; 
+}
+.links {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgb(221, 221, 221);
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px; 
+    border-right: 1px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.leftblock{
+    float: left;
+    background-color: #9ce5fc;
+    width: 107px;
+    padding: 9px;
+    border-radius: 10px;
+}
+.inleftblock{
+    text-align: justify;
+    background-color: #e4f9ff;
+    width: 100px;
+    float: left;  
+    border-radius: 10px;
+    box-shadow: 3px 3px gray;
+}
+.podname{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(62, 159, 224);
+    border-radius: 10px;
+}
+.links:hover{
+    background-color: antiquewhite;
+}
+.rightblock{
+    float: right;
+    background-color: #9ce5fc;
+    width: 107px;
+    padding: 9px;
+    border-radius: 10px;
+}
+.inrightblock1{
+    text-align: justify;
+    background-color: #e4f9ff;
+    width: 100%;
+    float: right; 
+    border-radius: 10px;
+    box-shadow: 3px 3px gray;
+    margin-bottom: 10px;
+}
+.inrightblock2{
+    text-align: justify;
+    background-color: #e4f9ff;
+    width: 100%;
+    float: right;  
+    border-radius: 10px;
+    box-shadow: 3px 3px gray;
+}
+.inrightblock2 li{
+    list-style-position: inside;
+    padding-left: 5px; 
+}
+
+.centerblock{
+    overflow: hidden;
+    background-color: #c5f0fd;
+    margin: 0 140px;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 300px;
+    
+}
+.imgcont {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;       
+    margin: 10px;
+    /* background-color: white; */
+    border-radius: 10px;
+    overflow: hidden;   
+    box-shadow: 2px 2px 5px gray;
+}
+.imgcont img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.overlay-text {
+    position: absolute;
+    bottom: -30px;      
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding-bottom: 2px;
+    font-size: 14px;
+    transition: bottom  .3s; 
+}
+.imgcont:hover .overlay-text {
+    bottom: 0;          
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertblockmenu {
+    text-align: center;
+    text-transform: uppercase;
+    width: 220px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+.vertblockmenu li {
+    position: relative;
+    background: #9ce5fc;
+    border-bottom: 1px solid #000;
+    padding: 12px;
+}
+.vertblockmenu li:hover {
+    background: #c5f0fd;
+}
+.vertblockmenu ul ul {
+    display: none;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 100%;  
+    width: 200px;
+    background: #e4f9ff;
+    box-shadow: 2px 2px 5px gray;
+}
+li:hover ul{
+    display: block;
+}
+
+.dablu {
+    text-align: center;
+    text-transform: uppercase;
+    width: 220px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+.dablu li{
+    position: relative;
+    
+    background: #9ce5fc;
+    border-bottom: 1px solid #000;
+    padding: 12px;
+}
+.dablu ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;  
+    width: 200px;
+    background: #e4f9ff;
+    box-shadow: 2px 2px 5px gray;
+}
+.dablu ul ul ul{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;  
+    width: 200px;
+    background: #e4f9ff;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.dablu li:hover > ul {
+    display: block;
+}
+.dablu li:hover {
+    background: #bceeff;
+}
+
+
+.gor {
+    width: 220px;
+    margin: 50px;
+    font-family: Arial;
+}
+
+.gor ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gor li {
+    background: linear-gradient(#dcdcdc, #a9a9a9);
+    text-align: center;
+    padding: 12px;
+    position: relative;
+}
+
+.gor li ul {
+    display: none;
+}
+
+.gor li:hover ul {
+    display: block;
+}
+
+.gor li ul li {
+    background: linear-gradient(#eeeeee, #cccccc);
+    padding: 10px;
+    border-top: 1px;
+}
+
+
+.gor li:hover {
+    background: linear-gradient(#cfcfcf, #9e9e9e);
+}
+
+.gor li ul li:hover {
+    background: #ddd;
+}
